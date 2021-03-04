@@ -3,9 +3,9 @@ const options = {
   mode: 'no-cors'
 };
 
-export default function fotos (options, response) {
+export default async function fotos (req, res) {
 
-
+  await options
 
   const Fotos = {
     "Fotos": {
