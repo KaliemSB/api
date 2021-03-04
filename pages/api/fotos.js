@@ -1,9 +1,11 @@
+const options = {
+  method: 'GET',
+  mode: 'no-cors'
+};
+
 export default function fotos (options, response) {
 
-  const options = {
-    method: 'GET',
-    mode: 'no-cors'
-  };
+
 
   const Fotos = {
     "Fotos": {
