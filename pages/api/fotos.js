@@ -1,4 +1,10 @@
-export default function fotos (request, response) {
+export default function fotos (options, response) {
+
+  const options = {
+    method: 'GET',
+    mode: 'no-cors'
+  };
+
   const Fotos = {
     "Fotos": {
         "Coluna1": ["https://lh3.googleusercontent.com/pw/ACtC-3cMNsF9LbhZ_akSIITDTzQWaR6n6KUCobLsC55ngj4i2qzKL1Pk-H00SSmthD_vML93Isn3lIY8B9STbDBQ1VdHEeJqYwpdfWHWB7GTlLrboWpTw7uO3CJjy6SlS4mn2KEbHA_6CSNlzdH0LOpc2zGXcA=w532-h943-no?authuser=1", "https://lh3.googleusercontent.com/pw/ACtC-3dkToEWTdTwZGc4c6jfrEIndlXHegSdLrpPIcznNQc9cEJkYd_njC0qtZk2yupnXrAcLvNCoCorB2qcuy0q84e4WbeXbQoacq3sERkvAfy5wmqPqmIHFg7SLEibCk_Ubyy_48U6gEFt5NlQI1oEVfK4rQ=w532-h943-no?authuser=1", "https://lh3.googleusercontent.com/pw/ACtC-3dy9XxgeuA8MCqLUmPqT0aqFJQel1TQ0rFu_Zx3qNbC8SHG0-znM890qcA1FTodgbjlAD38QWWmBPFyHkWfQjB2xCqVfnnEV8tN3c8y2V4nP1mgablzu-82hLsP7sPuDNzNW90_xnRVVktw3t9ZD5wwIQ=w505-h943-no?authuser=1", "https://lh3.googleusercontent.com/pw/ACtC-3cfPuGw7P4rBwwD-WlhAntG1hrrcMrQiQcF-FnDzZNvldcA7S6IG0ICKQxDypxFTyhxrFw4FqE3JmB43jKyHQfSdK2Ni_oluYu_e4eBOVrVGct_gKeRtxi9SXgmqIeyn8y0nmbZ-L8F7S_q-lsKMBg8WQ=w532-h943-no?authuser=1", "https://lh3.googleusercontent.com/pw/ACtC-3c-fYsAUm8eYdNrxZibKae8yQsgjouEv4E6B8WfIURXPOvehXry1t_Q1v-wjB5rFGQR3jKOawxTphVMJO13gwLyklmxpOSeoguN2bR6qNdyPQU5VDRqIb0ih8FfainikFO_sn41bKJrLrU3o2TWy_j1tw=w1258-h943-no?authuser=1"],
