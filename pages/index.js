@@ -4,7 +4,6 @@ export default function Home () {
   return (
     <div>
       <Link href="/api/fotos"><a>Fotos API</a></Link>
-      <Link href="/api/lol"><a>League Of Legends API</a></Link>
     <div>
   )
 }
